@@ -3,14 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My Website</title>
+    <title>Colors and Their Meanings</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f8ff;
-            color: #333;
             margin: 0;
             padding: 0;
+            background-color: #f4f4f4;
         }
         header {
             background-color: #4CAF50;
@@ -18,38 +17,76 @@
             text-align: center;
             padding: 1em;
         }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 0.5em;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-        .content {
+        section {
+            padding: 20px;
             margin: 20px;
-            text-align: center;
         }
-        h1 {
-            font-size: 2.5em;
+        h2 {
+            color: #333;
+        }
+        .color-box {
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            margin-right: 10px;
+            margin-top: 10px;
+        }
+        .color-info {
+            margin-top: 10px;
         }
     </style>
 </head>
 <body>
-
     <header>
-        <h1>Welcome to My Website</h1>
+        <h1>Colors and Their Meanings</h1>
     </header>
 
-    <div class="content">
-        <h2>Hello from Ansible!</h2>
-        <p>This website is deployed using Jenkins, Ansible, and AWS.</p>
-    </div>
+    <section>
+        <h2>Red</h2>
+        <div class="color-box" style="background-color: red;"></div>
+        <div class="color-info">
+            <p>Red is often associated with passion, energy, and action. It can also represent danger or warning.</p>
+        </div>
+    </section>
 
-    <footer>
-        <p>© 2025 My Website | Powered by Ansible</p>
-    </footer>
+    <section>
+        <h2>Blue</h2>
+        <div class="color-box" style="background-color: blue;"></div>
+        <div class="color-info">
+            <p>Blue is typically associated with calmness, trust, and professionalism. It's often used in corporate settings.</p>
+        </div>
+    </section>
 
+    <section>
+        <h2>Green</h2>
+        <div class="color-box" style="background-color: green;"></div>
+        <div class="color-info">
+            <p>Green represents growth, nature, and tranquility. It's often linked to sustainability and environmental awareness.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Yellow</h2>
+        <div class="color-box" style="background-color: yellow;"></div>
+        <div class="color-info">
+            <p>Yellow is associated with happiness, optimism, and creativity. It can also be a warning color in certain contexts.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Black</h2>
+        <div class="color-box" style="background-color: black;"></div>
+        <div class="color-info">
+            <p>Black often represents elegance, mystery, and sophistication. It can also symbolize authority or mourning.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>White</h2>
+        <div class="color-box" style="background-color: white;"></div>
+        <div class="color-info">
+            <p>White is linked to purity, simplicity, and peace. It is often associated with cleanliness and minimalism.</p>
+        </div>
+    </section>
 </body>
 </html>
