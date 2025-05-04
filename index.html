@@ -3,89 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colors and Their Meanings</title>
+    <title>Car Information</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
         header {
             background-color: #4CAF50;
             color: white;
             text-align: center;
-            padding: 1em;
+            padding: 10px 0;
         }
         section {
-            padding: 20px;
+            display: flex;
+            justify-content: space-around;
             margin: 20px;
+        }
+        .car {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            padding: 15px;
+            text-align: center;
+        }
+        .car img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
         }
         h2 {
             color: #333;
         }
-        .color-box {
-            display: inline-block;
-            width: 100px;
-            height: 100px;
-            margin-right: 10px;
-            margin-top: 10px;
-        }
-        .color-info {
-            margin-top: 10px;
+        p {
+            color: #555;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Colors and Their Meanings</h1>
+        <h1>Car Information</h1>
     </header>
 
     <section>
-        <h2>Red</h2>
-        <div class="color-box" style="background-color: red;"></div>
-        <div class="color-info">
-            <p>Red is often associated with passion, energy, and action. It can also represent danger or warning.</p>
+        <div class="car">
+            <img src="https://via.placeholder.com/300" alt="Car 1">
+            <h2>BMW M3</h2>
+            <p>The BMW M3 is a high-performance version of the BMW 3 Series, featuring a powerful engine, sportier handling, and aggressive styling.</p>
         </div>
-    </section>
-
-    <section>
-        <h2>Blue</h2>
-        <div class="color-box" style="background-color: blue;"></div>
-        <div class="color-info">
-            <p>Blue is typically associated with calmness, trust, and professionalism. It's often used in corporate settings.</p>
+        <div class="car">
+            <img src="https://via.placeholder.com/300" alt="Car 2">
+            <h2>Mercedes-Benz S-Class</h2>
+            <p>The Mercedes-Benz S-Class is a luxury sedan known for its advanced technology, comfort, and elegant design. It sets the standard for premium automobiles.</p>
         </div>
-    </section>
-
-    <section>
-        <h2>Green</h2>
-        <div class="color-box" style="background-color: green;"></div>
-        <div class="color-info">
-            <p>Green represents growth, nature, and tranquility. It's often linked to sustainability and environmental awareness.</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Yellow</h2>
-        <div class="color-box" style="background-color: yellow;"></div>
-        <div class="color-info">
-            <p>Yellow is associated with happiness, optimism, and creativity. It can also be a warning color in certain contexts.</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>Black</h2>
-        <div class="color-box" style="background-color: black;"></div>
-        <div class="color-info">
-            <p>Black often represents elegance, mystery, and sophistication. It can also symbolize authority or mourning.</p>
-        </div>
-    </section>
-
-    <section>
-        <h2>White</h2>
-        <div class="color-box" style="background-color: white;"></div>
-        <div class="color-info">
-            <p>White is linked to purity, simplicity, and peace. It is often associated with cleanliness and minimalism.</p>
+        <div class="car">
+            <img src="https://via.placeholder.com/300" alt="Car 3">
+            <h2>Audi A8</h2>
+            <p>The Audi A8 is a full-size luxury sedan with a focus on performance, innovative technology, and comfort. It boasts a sophisticated interior and a smooth ride.</p>
         </div>
     </section>
 </body>
