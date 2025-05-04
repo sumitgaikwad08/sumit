@@ -1,17 +1,101 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>BMW Cars</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Indian Cities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .city-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .city {
+            background-color: #eaeaea;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .city h2 {
+            color: #333;
+        }
+        .city p {
+            color: #555;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; background-color: #f4f4f4; text-align: center;">
-    <h1>Welcome to BMW Showcase</h1>
-    <h2>Top BMW Models</h2>
-    <ul style="list-style: none;">
-        <li><strong>BMW M3</strong> - Sporty and aggressive</li>
-        <li><strong>BMW X5</strong> - Luxury SUV</li>
-        <li><strong>BMW i8</strong> - Hybrid supercar</li>
-        <li><strong>BMW 7 Series</strong> - Executive luxury</li>
-    </ul>
-    <p>&copy; 2025 BMW Motors</p>
+<body>
+
+<header>
+    <h1>Top Indian Cities</h1>
+</header>
+
+<div class="container">
+    <h2>Explore the Best Cities in India</h2>
+
+    <div class="city-list">
+        <div class="city">
+            <h2>Mumbai</h2>
+            <p>Known as the financial capital of India, Mumbai is a vibrant city that is home to Bollywood and India’s stock market.</p>
+        </div>
+        <div class="city">
+            <h2>Delhi</h2>
+            <p>The capital city of India, Delhi is rich in history and culture, with landmarks like the Red Fort and India Gate.</p>
+        </div>
+        <div class="city">
+            <h2>Bangalore</h2>
+            <p>Known as the Silicon Valley of India, Bangalore is the country’s leading tech hub and has a vibrant nightlife scene.</p>
+        </div>
+        <div class="city">
+            <h2>Chennai</h2>
+            <p>Chennai, located on the southeastern coast, is famous for its cultural heritage, temples, and delicious South Indian cuisine.</p>
+        </div>
+        <div class="city">
+            <h2>Kolkata</h2>
+            <p>Known for its colonial architecture, art galleries, and festivals, Kolkata is a hub of culture and literature in India.</p>
+        </div>
+        <div class="city">
+            <h2>Hyderabad</h2>
+            <p>Famous for its historical landmarks like Charminar and its tech industry, Hyderabad is a blend of old and new India.</p>
+        </div>
+        <div class="city">
+            <h2>Pune</h2>
+            <p>Pune is a major educational and cultural hub, known for its pleasant climate, gardens, and historical landmarks.</p>
+        </div>
+        <div class="city">
+            <h2>Ahmedabad</h2>
+            <p>A thriving business city, Ahmedabad is rich in culture and has historical significance, being the birthplace of Mahatma Gandhi.</p>
+        </div>
+        <div class="city">
+            <h2>Jaipur</h2>
+            <p>Jaipur, the Pink City, is known for its majestic palaces, forts, and vibrant cultural scene.</p>
+        </div>
+    </div>
+</div>
+
 </body>
 </html>
